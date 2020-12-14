@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+.heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+}
+.sub_content {
+  opacity: 0.6;
+  line-height: 1.3em;
+  text-align: justify;
+}
+.content {
+  text-align: center;
+  padding: 20px 10px;
+}
