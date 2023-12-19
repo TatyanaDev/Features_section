@@ -49,10 +49,12 @@ input[type=search]::-webkit-search-results-button,
 input[type=search]::-webkit-search-results-decoration {
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
 }
 input[type=search] {
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -66,8 +68,8 @@ audio,
 canvas,
 video {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+    display: inline;
+    zoom: 1;
     max-width: 100%;
 }
 audio:not([controls]) {
@@ -108,7 +110,7 @@ legend {
     border: 0;
     padding: 0;
     white-space: normal;
-    *margin-left: -7px;
+    margin-left: -7px;
 }
 button,
 input,
@@ -117,7 +119,7 @@ textarea {
     font-size: 100%;
     margin: 0;
     vertical-align: baseline;
-    *vertical-align: middle;
+    vertical-align: middle;
 }
 button,
 input {
@@ -132,8 +134,9 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
+    appearance: button;
     cursor: pointer;
-    *overflow: visible;
+    overflow: visible;
 }
 button[disabled],
 html input[disabled] {
@@ -143,11 +146,12 @@ input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box;
     padding: 0;
-    *height: 13px;
-    *width: 13px;
+    height: 13px;
+    width: 13px;
 }
 input[type="search"] {
     -webkit-appearance: textfield;
+    appearance: textfield;
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;

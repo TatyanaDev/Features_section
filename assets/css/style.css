@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
 }
+
 .heading {
   text-transform: uppercase;
   font-weight: bold;
@@ -13,6 +15,7 @@ body {
   overflow: hidden;
   flex-wrap: wrap;
 }
+
 .sub_content {
   opacity: 0.6;
   line-height: 1.3em;
@@ -23,10 +26,12 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 .content {
   text-align: center;
   padding: 20px 10px;
 }
+
 .icon {
   max-height: 110px;
   min-height: 110px;
