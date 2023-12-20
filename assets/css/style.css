@@ -6,35 +6,43 @@ body {
   font-family: sans-serif;
 }
 
-.heading {
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  text-align: center;
+  padding: 37px 47px;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.icon {
+  margin-bottom: 35px;
+}
+
+.title {
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 20px;
+  color: #2D3033;
+  margin-bottom: 25px;
+  font-size: 14px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   flex-wrap: wrap;
 }
 
-.sub_content {
-  opacity: 0.6;
+.content {
+  font-size: 14px;
+  color: #6C7279;
   line-height: 1.3em;
-  text-align: justify;
-  margin-top: 20px;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
-
-.content {
-  text-align: center;
-  padding: 20px 10px;
-}
-
-.icon {
-  max-height: 110px;
-  min-height: 110px;
-  min-width: 75px;
-  max-width: 120px;
 }
